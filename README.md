@@ -26,4 +26,4 @@ Left the markdown below as a comment to be a reference point for when we hyperli
 &nbsp;  
 &nbsp;         
 *Presentation Date:*  
-*April 22nd Thursday 1:40-1:55*
+*April 22<sup>nd</sup> Thursday 1:40-1:55*
