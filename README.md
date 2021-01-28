@@ -3,8 +3,13 @@
 TODO:[CI Lab](https://shanep.github.io/capstone/labs/ci/)
 
 ## Project Epic
+TODO:[Project Brainstorm Lab](https://shanep.github.io/capstone/labs/project/)  
+&nbsp;  
+&nbsp;*What we are building:*  
 
-TODO:[Project Brainstorm Lab](https://shanep.github.io/capstone/labs/project/)
+&nbsp;  
+&nbsp;_500-1000 word project epic:_
+
 
 ### Tech lab
 
