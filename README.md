@@ -3,7 +3,6 @@
 TODO:[CI Lab](https://shanep.github.io/capstone/labs/ci/)
 
 ## Project Epic
-TODO:[Project Brainstorm Lab](https://shanep.github.io/capstone/labs/project/)  
 &nbsp;  
 *What we are building:*  
 ***Raspberry Pi 3 - Front Door Security*** 
