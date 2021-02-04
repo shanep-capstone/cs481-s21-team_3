@@ -57,6 +57,13 @@ python3 -c "import RPi.GPIO"
 ```sh
 $ pip3 install RPi.GPIO
 ```
+
+### Feedback from Shane
+
+Very nice project idea. The cool part about this project is with the raspberry pi this can stand alone and doesn’t need a subscription like the ring or nest doorbell camera. In fact you can host the webserver right on the pie that is accessible on your local network. I think this is a perfect fit for Senior design!
+
+I am excited to see the finished project! 
+
   
 &nbsp;  
 ### Tech lab
