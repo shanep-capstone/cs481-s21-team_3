@@ -66,9 +66,38 @@ I am excited to see the finished project!
 
   
 &nbsp;  
-### Tech lab
+## Tech lab
 
-TODO:[Tech Lab](https://shanep.github.io/capstone/labs/tech/)
+### _Overview_
+
+Below is the tech that we plan to use for our project. We attempted to plan ahead and consider all the elements our project would use, and we believe that we covered most of the grounds. This list will be updated if something is determined necessary during development or an extra feature is added from the inclusion of a stretch goal. Some of the hardware options were made to keep cost low without sacrificing too much performance.
+
+### _Software_
+
+[Raspberry Pi OS](https://www.raspberrypi.org/documentation/raspbian/): This operating system is the default and most well rounded operating system for the raspberry pi. Although we could have gone with a more generic option such as Ubuntu, Raspberry Pi OS is designed specifically for the pi therefore there are some, albeit minor, performance improvements due to the knowing the hardware configurations during development.
+
+### _Programming Language and Libraries_
+
+[Python 3](https://docs.python.org/3/): The Raspberry Pi OS by default comes with Python 3 installed. Since Python is a well rounded and respected programming language especially within the raspberry pi community, we decided to go with it as our main programming language. Additionally, there is an abundance of libraries already created in Python that we can leverage when communicating with our additional hardware such as the camera and GPIO ports. As a final point, some of our team members have not worked frequently with Python so we determined it would be a great learning experience. 
+
+[picamera](https://picamera.readthedocs.io/en/release-1.13/) Library: The picamera library allows us to leverage the CSI port on the raspberry pi and connect a camera to it for recording video. There are all sorts of baked-in methods for the camera class in this library and our project can utilize these to initialize the camera to record video.
+
+[RPi.GPIO](https://sourceforge.net/p/raspberry-gpio-python/wiki/Home/): The Raspberry-gpio-python Library (RPi.GPIO) module is installed with the Raspberry Pi OS and allows for the use of the GPIO ports on the raspberry pi board. Our project will utilize motion sensors that connect via the GPIO ports to determine when to start filming.
+
+### _Frameworks_
+
+[TkInter](https://wiki.python.org/moin/TkInter) Framework: TkInter is a Python GUI Framework that allows for the easy creation of GUI interfaces. It is one of the most common Python Interface builder tools that should give us enough utility for our goals in this project. 
+
+### _Hardware_
+
+[Raspberry Pi 3 B](https://www.amazon.com/Raspberry-Pi-MS-004-00000024-Model-Board/dp/B01LPLPBS8/ref=sr_1_4?dchild=1&keywords=raspberry+pi+3&qid=1612218605&s=electronics&sr=1-4): Previous generation Raspberry Pi that has CSI and GPIO connectors along with USB and HDMI. ARM quad core processor and 1GB ram more than enough power for this project.
+
+[Stemedu HC-SR501](https://www.amazon.com/gp/product/B07KBWVJMP/ref=ppx_yo_dt_b_asin_title_o07_s00?ie=UTF8&psc=1): Infrared IR motion sensor module allows for motion detection connection through GPIO ports.
+
+[Smraza OV5647 Camera Module](https://www.amazon.com/Camera-Module-Raspberry-Supports-Compatible/dp/B073183KYK/ref=sr_1_4?dchild=1&keywords=raspberry+pi+3+camera&qid=1612218684&s=electronics&sr=1-4): CSI connector camera module that allows for 5MP 1080p video capture with IR lights for adequate night time video recording. 
+
+[SanDisk 32GB microSD SDSQUA4-032G-GN6MA](https://www.amazon.com/SanDisk-Ultra-microSDHC-Memory-Adapter/dp/B08GY9NYRM/ref=sr_1_3?dchild=1&keywords=micro+sd+card+32gb&qid=1612218327&sr=8-3): Micro SD that will act as the hard drive for the Raspberry Pi. Enough storage for holding multiple video files with sufficient write speed for 1080p video.
+
 
 ## Planning Lab
 
