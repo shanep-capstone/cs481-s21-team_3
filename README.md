@@ -86,7 +86,9 @@ Below is the tech that we plan to use for our project. We attempted to plan ahea
 
 ### _Frameworks_
 
-[TkInter](https://wiki.python.org/moin/TkInter) Framework: TkInter is a Python GUI Framework that allows for the easy creation of GUI interfaces. It is one of the most common Python Interface builder tools that should give us enough utility for our goals in this project. 
+[TkInter](https://wiki.python.org/moin/TkInter) Framework: TkInter is a Python GUI Framework that allows for the easy creation of GUI interfaces. It is one of the most common Python Interface builder tools that should give us enough utility for our goals in this project.
+
+Our hello world program [hello_tk_world.py](https://github.com/shanep-capstone/cs481-s21-team_3/blob/master/src/hello_tk_world.py) demonstrates a quick and simple use of the framework. The program can be found at src/hello_tk_world.py.  
 
 ### _Hardware_
 
