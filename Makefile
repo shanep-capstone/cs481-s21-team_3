@@ -14,3 +14,7 @@ prepare-dev:
 
 run:
 	python3 ./src/hello_tk_world.py
+
+check:
+	@echo "Running tests..."
+	@sh test.sh

@@ -1,20 +1,28 @@
 import tkinter as tk
 import tkinter.messagebox
+import pytest
 #########################################
 # Hello Tkinter Framework World.
 #
 # Quick hello world using the tkinter 
 # framework. 
 #
+# Prereq:
+#   python 3.6+
+#       $ sudo apt-get install python3
+#   
+#   tkinter 
+#       $ sudo apt-get install python3-tk
+#
 # Usage:
-#   $ python hello_tk_world.py
+#   $ python3 hello_tk_world.py
 #########################################
 WIDTH = 142
 
 # Starts the party by creating a tkinter ojbect,
 # and returning it as the variable called "gui"
-def init():
-    gui = tk.Tk()
+def init(): 
+    gui = tk.Tk() # Comment this line out to make sure test_gui_init and test_tkinter fail when they should.
     gui.title('hello world')
     gui.geometry("240x320")
     return gui
@@ -35,10 +43,7 @@ def die(gui_frame):
 
 # Main driver function
 def main():
-    framework = init()
+    framework = init() # Comment this line out to make sure the main test_tkinter fails when it should.
     button_click(framework)
     die(framework)
     framework.mainloop()
-
-# Calling the main function
-main()
