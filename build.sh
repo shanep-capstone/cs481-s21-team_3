@@ -1,2 +1,2 @@
 #!/bin/bash
-python -m compileall ./src
+python3 -m compileall ./src

@@ -19,12 +19,12 @@
 
 # Tests the initializaion of 
 # the tkinter gui framework.
-python tests/test_gui_init.py
+python3 tests/test_gui_init.py
 echo $?
 
 # Tests the main method of the
 # tkinter hello world program,
-python tests/test_tkinter.py
+python3 tests/test_tkinter.py
 echo $?
 
 
