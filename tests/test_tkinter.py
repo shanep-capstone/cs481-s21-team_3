@@ -16,7 +16,7 @@ import hello_tk_world as gui
 # Gui main testing function.
 def test_gui_main():
     try:
-        gui.main()
+        gui.test_exit()
         assert True # 0
     except:
         assert False # 1

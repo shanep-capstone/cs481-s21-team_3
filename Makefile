@@ -27,5 +27,7 @@ run:
 	python3 ./src/hello_tk_world.py
 
 check:
-	@echo "Running tests..."
+	@echo "Starting tests..."
+	@echo ""
 	@sh test.sh
+	@pytest

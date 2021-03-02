@@ -1,6 +1,6 @@
 import tkinter as tk
 import tkinter.messagebox
-import pytest
+import time
 #########################################
 # Hello Tkinter Framework World.
 #
@@ -40,6 +40,14 @@ def button_click(gui_frame):
 def die(gui_frame):
     exit_button = tk.Button(gui_frame, text="Exit", width=WIDTH, command=gui_frame.destroy)
     exit_button.pack()
+
+# Tester function for main gui setup
+def test_exit():
+    tester_gui = init() # Comment this line out to make sure the main test_tkinter fails when it should.
+    button_click(tester_gui)
+    die(tester_gui)
+    tester_gui.after(1000, lambda: tester_gui.destroy()) # Destroy tkinter gui after 1 second(1000 = 1 second)
+    tester_gui.mainloop()
 
 # Main driver function
 def main():
