@@ -1,2 +1,2 @@
 #!/bin/bash
-exit 0
+python -m compileall ./src
