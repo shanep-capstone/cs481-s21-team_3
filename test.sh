@@ -14,6 +14,12 @@
 #   currently require the user to close
 #   out the graphical windows by manually
 #   clicking on them. Updates to come!
+#       UPDATE:
+#           tkinter gui tests are now
+#           automated. "make clean" no
+#           longer requires the user to 
+#           manually click on gui windows
+#           in order close them.
 #########################################
 
 
