@@ -1,7 +1,6 @@
 # CS481 - Senior Design Project
 
-TODO:[CI Lab](https://shanep.github.io/capstone/labs/ci/)
-
+![Continous Integration](https://github.com/shanep-capstone/cs481-s21-team_3/actions/workflows/ci.yml/badge.svg)
 ## Project Epic
 &nbsp;  
 *What we are building:*  
