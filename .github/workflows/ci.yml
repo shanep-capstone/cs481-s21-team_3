@@ -3,12 +3,9 @@ on: [push]
 jobs:
  build-project:
   runs-on: ubuntu-latest
-  env: 
-      READTHEDOCS: True
   steps:
    - run: sudo apt-get install python3-setuptools
    - run: pip3 install RPi.GPIO
    - run: sudo apt-get -y install python3-tk
    - run: pip3 install -U pytest
-   - run: sudo pip3 install picamera
    - run: make build
