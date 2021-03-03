@@ -4,7 +4,8 @@ jobs:
  build-project:
   runs-on: ubuntu-latest
   env:
-   DISPLAY: 0.0
+    - DISPLAY=:99.0
+  #  DISPLAY: 0.0
   steps:
    - run: sudo apt-get install python3-setuptools
    - run: pip3 install RPi.GPIO
