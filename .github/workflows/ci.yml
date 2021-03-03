@@ -15,4 +15,4 @@ jobs:
      with:
       python-version: '3.x'
    - run: make build
-   - run: make check-ci
+   - run: make check

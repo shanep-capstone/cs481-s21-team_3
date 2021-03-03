@@ -26,11 +26,12 @@ clean:
 run:
 	python3 ./src/hello_tk_world.py
 
-check-ci:
-	@python3 tests/test_ci.py
+# check-ci:
+# 	@python3 tests/test_ci.py
 
 check:
 	@echo "Starting tests..."
 	@echo ""
-	@sh test.sh
-	@pytest
+	@python3 tests/test_ci.py
+	# @sh test.sh
+	# @pytest
