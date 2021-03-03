@@ -3,16 +3,12 @@ on: [push]
 jobs:
  build-project:
   runs-on: ubuntu-latest
-  env:
-   DISPLAY: 0.0
+  # env:
+  #  DISPLAY: 0.0
   steps:
-   - run: echo 'export DISPLAY=unix$DISPLAY' >> $BASH_ENV
    - run: sudo apt-get install python3-setuptools
    - run: pip3 install RPi.GPIO
    - run: sudo apt-get -y install python3-tk
-   # export DISPLAY=localhost:0.0
-  #  - run: pip3 install -U pytest
-  #  - run : export DISPLAY=unix$DISPLAY
    - run: sudo python3 -m pip install pytest
    - name: Checkout Project
      uses: actions/checkout@v2
@@ -20,4 +16,3 @@ jobs:
       python-version: '3.x'
    - run: make build
    - run: make check-ci
-   - run: make check
