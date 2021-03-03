@@ -8,4 +8,6 @@ jobs:
    - run: pip3 install RPi.GPIO
    - run: sudo apt-get -y install python3-tk
    - run: pip3 install -U pytest
+   - name: Checkout Project
+     uses: actions/checkout@v2
    - run: make build
