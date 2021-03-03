@@ -32,6 +32,6 @@ run:
 check:
 	@echo "Starting tests..."
 	@echo ""
-	@python3 tests/test_ci.py
+	@pytest tests/test_ci.py
 	# @sh test.sh
 	# @pytest
