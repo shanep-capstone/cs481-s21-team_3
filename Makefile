@@ -27,7 +27,7 @@ run:
 	python3 ./src/hello_tk_world.py
 
 check-ci:
-	@pytest tests/test_ci.py
+	@python3 tests/test_ci.py
 
 check:
 	@echo "Starting tests..."
