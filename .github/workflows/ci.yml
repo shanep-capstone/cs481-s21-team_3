@@ -4,10 +4,9 @@ jobs:
  build-project:
   runs-on: ubuntu-latest
   env:
-   echo "export DISPLAY=unix$DISPLAY" >> $BASH_ENV
-   source $BASH_ENV
    DISPLAY: 0.0
   steps:
+   - run: echo 'export DISPLAY=unix$DISPLAY' >> $BASH_ENV
    - run: sudo apt-get install python3-setuptools
    - run: pip3 install RPi.GPIO
    - run: sudo apt-get -y install python3-tk
