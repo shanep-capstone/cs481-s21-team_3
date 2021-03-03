@@ -3,8 +3,8 @@ on: [push]
 jobs:
  check-repo:
   runs-on: ubuntu-latest
-   env:
-    DISPLAY: 0.0
+  env:
+   DISPLAY: 0.0
   steps:
    - run: sudo apt-get install python3-setuptools
    - run: pip3 install RPi.GPIO
