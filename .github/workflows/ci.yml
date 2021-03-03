@@ -4,6 +4,7 @@ jobs:
  build-project:
   runs-on: ubuntu-latest
   steps:
+   - run: sudo apt-get install python3-setuptools
    - run: pip3 install RPi.GPIO
    - run: make prepare-dev
    - run: make build
