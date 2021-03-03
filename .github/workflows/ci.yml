@@ -12,8 +12,8 @@ jobs:
    - run: sudo python3 -m pip install pytest
    - name: Checkout Project
      uses: actions/checkout@v2
-     with:
-      python-version: '3.x'
+    #  with:
+    #   python-version: '3.x'
    - run: make build
    - run: make check
    - run: echo "CI complete!"
