@@ -16,3 +16,4 @@ jobs:
       python-version: '3.x'
    - run: make build
    - run: make check
+   - run: echo "CI complete!"
