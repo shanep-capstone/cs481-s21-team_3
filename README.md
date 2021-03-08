@@ -1,15 +1,15 @@
 # CS481 - Senior Design Project
 
-![Continous Integration](https://github.com/shanep-capstone/cs481-s21-team_3/actions/workflows/ci.yml/badge.svg)
-## Project Epic
-&nbsp;  
-*What we are building:*  
-***Raspberry Pi 3 - Front Door Security*** 
-&nbsp;  
+![Continous Integration](https://github.com/shanep-capstone/cs481-s21-team_3/actions/workflows/ci.yml/badge.svg)  
+  
 
+## Project Epic
+
+### _Raspberry Pi 3 - Front Door Security_
+  
 The main intent of our project is to utilize a Raspberry Pi 3 in order to monitor front door visitors. This will be accomplished by using a motion sensor to detect someone’s presence, which will then trigger a camera to document this occurrence. These instances of someone at the front door will be recorded and sent as web requests to the homeowner. These notifications will have the option of email or text message configuration to alert the homeowner when they are triggered. One of the primary goals for this project is to allow for video recording, but there is wiggle room in stretch goals that will increase the overall functionality of the device beyond its primary function. 
   
-On the physical side, we need to secure the necessary hardware pieces. Links have been included as possible options for some of the hardware components. **These include...**
+On the physical side, we need to secure the necessary hardware pieces. Links have been included as possible options for some of the hardware components. _These include..._
 
 _Required Hardware Overview:_
 * [Raspberry Pi 3](https://www.amazon.com/Raspberry-Pi-MS-004-00000024-Model-Board/dp/B01LPLPBS8/ref=sr_1_4?dchild=1&keywords=raspberry+pi+3&qid=1612218605&s=electronics&sr=1-4)  
@@ -26,9 +26,10 @@ _Strech Goal Hardware:_
   
 
 Once the hardware is acquired, then it’ll be necessary to make individual connections to our program, and test their functionality. Python, specifically [Python 3.6 or higher](https://www.python.org/downloads/), will be required for making the individual connections as well as testing each component's functionality. 
-  
+   
 
-_Required Software Overview:_  
+### _Required Software Overview:_
+
 At a lower level, Python will be used to implement the logic behind these processes. The Pi Camera package is a solid module for us to start, as it has plenty of options for retrieving video clips and a robust, well supported library. The remaining elements connected to the raspberry pi can easily be interfaced through Python as well and have their inputs fed into our program. For example, the motion sensors can be connected to the raspberry pi by using python’s general purpose input/output(GPIO) pins. Plus, as a reference point the raspberry pi offers a terminal tool called [pinout](https://www.raspberrypi.org/documentation/usage/gpio/). Pinout provides the pi’s hardware layout schematic for the GPIO pins. Which will be needed to make sure the required sensor cables are connected correctly.
 
 A stretch goal would be to add a button to the device, providing doorbell functionality. As an additional stretch goal, implementing some sort of user interface that allows the user to determine the functionality of the device (such as video save locations for example) would help make the device more robust. Another stretch goal would be to implement a microphone to allow for audio capture in addition to the video stream for added security. 
@@ -36,8 +37,8 @@ A stretch goal would be to add a button to the device, providing doorbell functi
 The operating system to power our project will be [Raspbian](https://www.raspbian.org/). Raspbian is a free linux distro that is optimized for the Raspberry Pi. Additionally, Rasbian comes preloaded python installed and ready to go. Therefore, at which point, we should simply need to make sure we have the necessary python packages installed. For example, some of the required python modules will be the [Pi Camera module](https://picamera.readthedocs.io/en/release-1.13/install.html) and the [GPIO module](https://pypi.org/project/RPi.GPIO/). Required python modules will act as our glue between hardware and software. **These include...**
 
 &nbsp;  
-Assuming Rasbian and Python 3 are already installed make sure the following software packages are also...
-&nbsp;  
+Assuming Rasbian and Python 3 are already installed make sure the following software packages are also...  
+&nbsp;   
 *Check if Pi Camera module is installed:*
 ```sh
 $ python3 -c "import picamera"
@@ -116,4 +117,4 @@ Left the markdown below as a comment to be a reference point for when we hyperli
 &nbsp;  
 &nbsp;         
 *Presentation Date:*  
-*April 22<sup>nd</sup> Thursday 1:40-1:55*
+*April 20<sup>nd</sup> Tuesday 1:55-2:05*
