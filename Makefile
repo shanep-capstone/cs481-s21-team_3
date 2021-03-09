@@ -35,3 +35,22 @@ check:
 	@pytest tests/test_ci.py
 	# @sh test.sh
 	# @pytest
+
+#----------------------------------------
+# Auto Git
+#
+# Git add, commit, push via make.
+# Cause less typing to do a git push.
+#
+# Usage:
+#	$ make push msg="commit message"
+#
+# Feel free to delete or comment out if
+# this causes you issues.
+#----------------------------------------
+push:
+	@git status
+	@git add .
+	git commit -m "$(msg)"
+	@git status
+	@git push
