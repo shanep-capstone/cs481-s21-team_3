@@ -1,6 +1,6 @@
 # Ryan Thompson
 
-## _Raspberry Pi Security Camera GUI_  
+### Raspberry Pi Security Camera GUI  
 &nbsp;   
 
 ## User Story
