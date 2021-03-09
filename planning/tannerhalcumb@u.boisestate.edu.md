@@ -25,9 +25,6 @@ of new tasks to surface.
 
 ## Definition of Done
 
-- Task 1 DOD - I will know that I am done by having a set of unit/system tests that
-  exercise my Model class. I can run my tests with the test.sh script and see the results
-  of the tests. My tests are ran on every commit with the results shown at https://github.com/example
 - Task 1, optimal GPIO pin setup, will be complete by comfirming the motion sensor is plugged in and establishes a non-fatal connection. At this point, the raspberry pi can confirm through our test.sh script that communication between hardware is active.
 - Task 2 will be complete when the presence of a human is detectable, then the instance is recorded and the motion sensor turns off.
 - Task 3 will be complete when the presence of a human is detectable in the absence of light, then the instance is recorded and the motion sensor turns off.
