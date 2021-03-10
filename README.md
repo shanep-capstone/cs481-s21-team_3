@@ -103,7 +103,7 @@ Our hello world program [hello_tk_world.py](https://github.com/shanep-capstone/c
 
 ## Planning Lab
 
-- Kyle Epperson's Plan
+- [Kyle Epperson's Plan](planning/kyleepperson@u.boisestate.edu.md)
 - [Ryan Thompson's Plan](planning/ryanthompson317@u.boisestate.edu.md)
 - Tanner Halcumb's Plan  
 
