@@ -105,7 +105,7 @@ Our hello world program [hello_tk_world.py](https://github.com/shanep-capstone/c
 
 - [Kyle Epperson's Plan](planning/kyleepperson@u.boisestate.edu.md)
 - [Ryan Thompson's Plan](planning/ryanthompson317@u.boisestate.edu.md)
-- Tanner Halcumb's Plan  
+- [Tanner Halcumb's Plan](planning/tannerhalcumb@u.boisestate.edu.md)  
 
 &nbsp;  
 &nbsp;         
